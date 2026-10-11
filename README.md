@@ -15,7 +15,7 @@ HTTP security headers, cookie flags, and exposed TCP ports, with an optional HTM
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/webposture-audit.git
+git clone https://github.com/<IdanYefet>/webposture-audit.git
 cd webposture-audit
 python -m venv .venv
 .venv\Scripts\activate        # Windows
