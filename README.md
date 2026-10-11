@@ -5,6 +5,8 @@ HTTP security headers, cookie flags, and exposed TCP ports, with an optional HTM
 
 > **Legal notice:** use only on systems you own or have explicit written permission to test.
 
+![Sample report](docs/report.png)
+
 ## Features
 
 - Checks for missing security headers (HSTS, CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy)
