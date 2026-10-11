@@ -16,6 +16,7 @@ COMMON_PORTS = {
     143: ("IMAP", Severity.MEDIUM, "IMAP is unencrypted unless wrapped in TLS."),
     443: ("HTTPS", Severity.INFO, "Encrypted web server."),
     445: ("SMB", Severity.HIGH, "SMB has a long history of critical vulnerabilities."),
+    3000: ("HTTP-dev", Severity.INFO, "Development web server (Node/Juice Shop default)."),
     3306: ("MySQL", Severity.HIGH, "Database should not be reachable from outside."),
     3389: ("RDP", Severity.HIGH, "Remote Desktop is a frequent ransomware entry point."),
     5432: ("PostgreSQL", Severity.HIGH, "Database should not be reachable from outside."),
