@@ -57,6 +57,14 @@ webposture/
 └── models.py              # Finding and Severity
 ```
 
+## Testing
+
+```bash
+python -m pytest -v
+```
+
+The tests start small local servers on free ports, so they need no internet access and no external targets.
+
 ## Limitations
 
 Checks presence of headers and flags only, not the quality of their values.
